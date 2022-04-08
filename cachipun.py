@@ -1,10 +1,10 @@
-J1 = float(input("Jugador 1, ingrese una opcion: \n 1) Piedra \n 2) Papel \n 3) Tijeras \n "))
+J1 = int(input("Jugador 1, ingrese una opcion: \n 1) Piedra \n 2) Papel \n 3) Tijeras \n "))
 
 if J1 > 3 :
     print("Eliga una opcion valida")
     
 else :
-    J2 = float(input("Jugador 2, ingrese una opcion: \n 1) Piedra \n 2) Papel \n 3) Tijeras \n "))
+    J2 = int(input("Jugador 2, ingrese una opcion: \n 1) Piedra \n 2) Papel \n 3) Tijeras \n "))
 
     if J2 > 3 :
         print("Eliga una opcion valida")
